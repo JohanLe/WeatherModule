@@ -119,10 +119,6 @@ class ComposerStaticInit91430f10a9a3ff470676ad01ecfe20a0
             19 => __DIR__ . '/..' . '/anax/url/src',
             20 => __DIR__ . '/..' . '/anax/view/src',
             21 => __DIR__ . '/../..' . '/source',
-            22 => __DIR__ . '/../..' . '/source/Weather',
-            23 => __DIR__ . '/..' . '/source',
-            24 => __DIR__ . '/source',
-            
         ),
     );
 
