@@ -1,11 +1,10 @@
-[![Latest Stable Version](https:/poser.pugx.org/JohanLe/Weather/v/stable)](https:/packagist.org/packages/anax/remserver)
 
 
 [![Build Status](https:/travis-ci.org/JohanLe/WeatherModule.svg?branch=master)](https:/travis-ci.org/JohanLe/WeatherModule)
 
-[![Build Status](https:/scrutinizer-ci.com/g/JohanLe/WeatherModule/badges/build.png?b=master)](https:/scrutinizer-ci.com/g/JohanLe/WeatherModule/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JohanLe/WeatherModule/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JohanLe/WeatherModule/?branch=master)
 
-[![Scrutinizer Code Quality](https:/scrutinizer-ci.com/g/JohanLe/WeatherModule/badges/quality-score.png?b=master)](https:/scrutinizer-ci.com/g/JohanLe/WeatherModule/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/JohanLe/WeatherModule/badges/build.png?b=master)](https://scrutinizer-ci.com/g/JohanLe/WeatherModule/build-status/master)
 
 [![Code Coverage](https:/scrutinizer-ci.com/g/JohanLe/WeatherModule/badges/coverage.png?b=master)](https:/scrutinizer-ci.com/g/JohanLe/WeatherModule/?branch=master)
 
@@ -26,34 +25,29 @@ Install
 
 ###### Composer
 
-> composer require johanle/weather
+> composer require johanle/WeatherModule
 
 ###### Git 
 
-> git clone https:/github.com/JohanLe/weather/
+> git clone https:/github.com/JohanLe/WeatherModule/
 
 
 If installed with Composer you can use following commands with rsync:
-
-##### With bash:
-
-Run:
-> bash ./setup.bash
 
 ##### Manually:
 Run following commands.
 
 Config files: 
-> rsync -av vendor/johanle/weather/config/router/* config/router/
+> rsync -av vendor/johanle/WeatherModule/config/router/* config/router/
 
 Src files:
-> rsync -av vendor/johanle/weather/source/Weather src/
+> rsync -av vendor/johanle/WeatherModule/source/Weather src/
 
 View files:
-> rsync -av vendor/johanle/weather/view/weather view/
+> rsync -av vendor/johanle/WeatherModule/view/weather view/
 
 Test files: 
-> rsync -av vendor/johanle/weather/test/weather test/
+> rsync -av vendor/johanle/WeatherModule/test/weather test/
 
 
 
