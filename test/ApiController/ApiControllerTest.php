@@ -12,7 +12,7 @@ class ApiControllerTest extends TestCase
      */
     public function testTrue()
     {
-        $controller = new ApiController();
+        
         $this->assertTrue(true);
     }
 }
