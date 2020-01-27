@@ -98,7 +98,6 @@ class ComposerStaticInit91430f10a9a3ff470676ad01ecfe20a0
         'Anax\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-            0 => __DIR__ . '/../..' . '/source',
             1 => __DIR__ . '/..' . '/anax/anax-flat/src',
             2 => __DIR__ . '/..' . '/anax/anax-lite/src',
             3 => __DIR__ . '/..' . '/anax/anax-ramverk1-me/src',
@@ -119,6 +118,7 @@ class ComposerStaticInit91430f10a9a3ff470676ad01ecfe20a0
             18 => __DIR__ . '/..' . '/anax/textfilter/src',
             19 => __DIR__ . '/..' . '/anax/url/src',
             20 => __DIR__ . '/..' . '/anax/view/src',
+            21 => __DIR__ . '/../..' . '/source',
         ),
     );
 
